@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete web development</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <style>
+      .container{
+        margin-bottom: 50px;
+      }
+        .button-buy{
+    background-image: linear-gradient(to bottom ,black 0% ,black 100%);
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.569);
+    border-radius: 10px;
+}
+      .lawra{
+        background-image: url(bg-2.png);
+        background-repeat: no-repeat;
+        background-position: left bottom ;
+       
+      }
+      .jihad{
+        background-image: url(bg-1.png);
+        background-repeat: no-repeat;
+        background-position: left;
+      }
+      .bag-item{
+    padding-right: 100px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+}
+.perfume{
+    margin-bottom: 80px;
+    box-shadow: 10px 10px 10px  10px lightgray;
+}
+.shoe{
+  box-shadow: 10px 10px 10px  10px lightgray;
+} 
+    
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="w-50" src="logo.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    
+
+  <div class="container" id="home">
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide lawra" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item  active col-md-4">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1> Macbook pro</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nemo ratione iusto vitae et architecto
+                doloribus odio eius nobis enim!</p>
+              <button class="button-buy"> Buy Now > </button>
+            </div>
+            <div class="col-md-5">
+              <img src="product-1.png" class="d-block w-100 jihad"
+                alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+   
+    <div class="container" id="Smart phone">
+      <h1>Smart phone</h1>
+      <h5 class="text-end text-warning">see all</h5>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="phone-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button> 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="phone-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">i phone</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="phone-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samsung</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+
+    <div class="container" id="Laptop">
+      <h1>Laptop</h1>
+      <h5 class="text-end text-warning">see all</h5>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asus vivo Book</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button> 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Razer Blade 15</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Xiaomi Mi Note book pro</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="button-buy"> Bay Now </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <div class="container" id="ban">
+      <h2 class="text-center"> categories</h2>
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img src="bag.png" class="bag-item" alt="" >
+        </div>
+        <div class="col-md-2 image-item">
+          <img src="perfume.png" class="perfume" alt="">
+            <img src="shoe.png" class="shoe" alt="">
+        </div>
+        <div class="col-md-7">
+          <img src="pale-order.png" class="w-100" alt="">
+        </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
